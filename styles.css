@@ -1,0 +1,19 @@
+.logo{width:120px;}
+header{display: flex;
+     justify-content: space-between;
+    }
+header{border:1px solid white;
+    }
+.headerleft{display:flex;
+     border:1px solid white;
+justify-content: space-around;
+align-items: center;gap: 18px;
+}
+.headerright{display:flex;
+  border  :1px solid white;
+  justify-content: space-between;
+  gap: 10px;align-items: center;
+}
+button{background-color:#621E6B ;
+    color:white;
+}
