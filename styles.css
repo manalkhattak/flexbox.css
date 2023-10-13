@@ -1,19 +1,78 @@
 .logo{width:120px;}
 header{display: flex;
      justify-content: space-between;
+     background-color: white;
     }
-header{border:1px solid white;
-    }
-.headerleft{display:flex;
-     border:1px solid white;
-justify-content: space-around;
-align-items: center;gap: 18px;
+
+.headerleft{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+
 }
 .headerright{display:flex;
-  border  :1px solid white;
-  justify-content: space-between;
-  gap: 10px;align-items: center;
+  justify-content: center;
+gap: 8px;align-items: center;
+  margin-right: 23px;
 }
-button{background-color:#621E6B ;
-    color:white;
+.bodyleft{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
+.header2{
+     background-color: #F5EDE5;
+}
+.heading{
+     display: flex;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: x-large;
+     margin-left: 20px;
+     flex-wrap: wrap;
+}
+.paragraph{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 8px;
+    flex-wrap: wrap;
+}
+.button1{
+    display: flex;
+    background-color: white;
+    padding: 8px;
+    border: white;
+}
+.button2{
+    display: flex;
+    background-color:#611E69 ;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    border: #611E69;}
+.button3{
+    display: flex;
+    background-color: #611E69;
+    border: #611E69;
+    color: white;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    
+}
+.button4{
+    display: flex;
+    background-color: #F5EDE5;
+    border: #611E69;
+    color: #611E69;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+}      
+.video{width: 500px;}
+
+
